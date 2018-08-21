@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'components/posts.dart';
+
 
 void main() => runApp(MyApp());
 
@@ -41,7 +41,10 @@ class MyApp extends StatelessWidget {
                 color: Color.fromRGBO(54,54,54,1.0),
                 
               ),
-              Posts(),
+              Container(
+                color: Color.fromRGBO(54,54,54,1.0),
+                
+              ),
               Container(
                 color: Color.fromRGBO(54,54,54,1.0),
                 
